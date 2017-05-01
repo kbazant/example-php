@@ -29,10 +29,11 @@
 		<h1>Topic:
 			<?php echo TITLE ?>
 		</h1>
-		
+
 		<h3>What is PHP?</h3>
-		
-		PHP (recursive acronym for PHP: <!--Hypertext Preprocessor--><strong><?php echo $dynamicweb[acronym]; ?>)</strong> is a widely-used open source general-purpose scripting language that is especially suited for <strong><?php echo $dynamicweb[usage]; ?>)</strong> and can be embedded into <strong><?php echo $dynamicweb[embeddability]; ?>)</strong>.
+
+		PHP (recursive acronym for PHP:
+		<!--Hypertext Preprocessor--><strong><?php echo $dynamicweb[acronym]; ?>)</strong> is a widely-used open source general-purpose scripting language that is especially suited for <strong><?php echo $dynamicweb[usage]; ?>)</strong> and can be embedded into <strong><?php echo $dynamicweb[embeddability]; ?>)</strong>.
 
 		<!--Copyright info-->
 		<small>&copy;<?php echo date('Y');  ?> - <?php echo $my_name; ?></small>
