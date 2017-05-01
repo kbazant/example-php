@@ -20,6 +20,7 @@
 	between your birth year and this year
 	to show your age dynamically
 	*/
+	$my_age = ($this_year - $birth_year);
 
 ?>
 
@@ -27,13 +28,11 @@
 	<html>
 
 	<head>
-		<title>Example PHP Website</title>
+		<title>Example PHP Website: <?php echo TITLE; ?></title>
 	</head>
 
 	<body>
-		<?php
-		print ("Hello World!");
-	?>
+		<h1>Page Title: <?php echo TITLE; ?></h1>
 	</body>
 
 	</html>
