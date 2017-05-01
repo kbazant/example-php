@@ -61,7 +61,7 @@
 		</div>
 
 		<!--Copyright info-->
-		<small>&copy;<?php echo $this_year?> - <?php echo $my_name?></small>
+		<small>&copy;<?php echo $this_year?> - <?php echo $my_name; ?></small>
 
 	</body>
 
