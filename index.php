@@ -8,6 +8,9 @@
 	$fav_colour = "blue";
 	$birth_year = 1980; 
 	
+	//Set time zone
+	date_default_timezone_set('Europe/London');
+
 	/*
 	Use PHP to calculate the difference
 	between your birth year and this year
