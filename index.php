@@ -11,6 +11,10 @@
 	//Set time zone
 	date_default_timezone_set('Europe/London');
 
+	//Set time and date format
+	$today = date('m d Y');
+	$this_year = date('Y');	
+
 	/*
 	Use PHP to calculate the difference
 	between your birth year and this year
