@@ -33,6 +33,21 @@
 
 	<body>
 		<h1>Page Title: <?php echo TITLE; ?></h1>
+		
+		<div id="sandbox">
+			<h3>Today's Date:</h3>
+			<p><?php echo $today; ?></p>
+			
+			<h3>My Name:</h3>
+			<p><?php echo $my_name; ?></p>
+			
+			<h3>My Favourite Colour:</h3>
+			<p><?php echo $fav_colour; ?></p>
+			
+			<h3>My Favourite Colour:</h3>
+			<p><?php echo $my_age; ?></p>
+		</div>
+		
 	</body>
 
 	</html>
