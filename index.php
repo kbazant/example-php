@@ -28,26 +28,41 @@
 	<html>
 
 	<head>
-		<title>Example PHP Website: <?php echo TITLE; ?></title>
+		<title>Example PHP Website:
+			<?php echo TITLE; ?>
+		</title>
 	</head>
 
 	<body>
-		<h1>Page Title: <?php echo TITLE; ?></h1>
-		
+		<h1>Page Title:
+			<?php echo TITLE; ?>
+		</h1>
+
 		<div id="sandbox">
 			<h3>Today's Date:</h3>
-			<p><?php echo $today; ?></p>
-			
+			<p>
+				<?php echo $today; ?>
+			</p>
+
 			<h3>My Name:</h3>
-			<p><?php echo $my_name; ?></p>
-			
+			<p>
+				<?php echo $my_name; ?>
+			</p>
+
 			<h3>My Favourite Colour:</h3>
-			<p><?php echo $fav_colour; ?></p>
-			
-			<h3>My Favourite Colour:</h3>
-			<p><?php echo $my_age; ?></p>
+			<p>
+				<?php echo $fav_colour; ?>
+			</p>
+
+			<h3>My Age:</h3>
+			<p>
+				<?php echo $my_age; ?>
+			</p>
 		</div>
-		
+
+		<!--Copyright info-->
+		<small>&copy;<?php echo $this_year?> - <?php echo $my_name?></small>
+
 	</body>
 
 	</html>
