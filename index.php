@@ -4,7 +4,9 @@
 	define("TITLE", "Variables and Constants ");
 	
 	// Your Variables
-	
+	$my_name = "Kris";
+	$fav_colour = "blue";
+	$birth_year = 1980; 
 	
 	/*
 	Use PHP to calculate the difference
