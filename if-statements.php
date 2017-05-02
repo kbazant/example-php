@@ -11,6 +11,8 @@
 
 	$fav_fruit = "orange";
 
+	$programming_language = "Java"; 
+
 ?>
 
 	<!DOCTYPE html>
@@ -39,10 +41,24 @@
 				} else {
 					echo "So you like oranges...";
 				}
-			?>
 			
+				// If - Else If - Else
+				if ($programming_language == "PHP") {
+					
+					echo "Server-side programming.";	
+					
+				} elseif ($programming_language == "JavaScript") {
+					
+					echo "Front and Back-end web development.";
+					
+				} else { 
+					
+					echo "general-purpose programming.";
+				}
+			 
+			?>
 		</section>
-		
+
 		<br>
 
 		<!--Copyright info-->
