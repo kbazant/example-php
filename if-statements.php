@@ -9,6 +9,8 @@
 	$a = 20;
 	$b = 50;
 
+	$fav_fruit = "orange";
+
 ?>
 
 	<!DOCTYPE html>
@@ -31,7 +33,14 @@
 				if ($a < $b) {
 					echo "Yes, $a is less than $b.";
 				}
+				//fruit
+				if ($fav_fruit == "pineapple") {
+					echo "Pineapple is the best!";
+				} else {
+					echo "So you like oranges...";
+				}
 			?>
+			
 		</section>
 		
 		<br>
