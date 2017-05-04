@@ -17,9 +17,7 @@
 		<!--banner-->
 
 		<div id="nav">
-			<ul>
 				 <?php include('includes/nav.php'); ?>
-			</ul>
 		</div>
 		<!--nav-->
 
