@@ -6,7 +6,7 @@
 }
 
 body {
-	background: #f5f4f1 url('http://placehold.it/300x300/c6dcef');
+	background: #f5f4f1 url('../images/restaurant.png');
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 15px;
 	line-height: 20px;
