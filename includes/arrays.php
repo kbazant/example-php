@@ -5,20 +5,20 @@
 		
 		array(
 			slug => "index.php",
-			title => "Home"
+			title => "Home",
 		),
 		array(
 			slug => "team.php",
-			title => "Team"
+			title => "Team",
 		),
 		array(
 			slug => "menu.php",
-			title => "Menu"
+			title => "Menu",
 		),
 		array(
 			slug => "contact.php",
-			title => "Contact"
-		),
+			title => "Contact",
+		)
 		
 	);
 
