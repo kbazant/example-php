@@ -27,7 +27,7 @@
 			</div>
 			<!--footer-->
 			
-			<small>&copy; 2017 KB</small>
+			<small>&copy;<?php echo date('Y'); ?> <?php echo $companyName; ?></small>
 
 		</div>
 		<!--content-->
