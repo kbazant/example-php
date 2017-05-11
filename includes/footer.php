@@ -21,6 +21,8 @@
 					<em>Sunday - Monday</em><br>
 					Closed<br>
 					
+					<?php include('includes/store-hours.php'); ?>
+					
 				</div>
 				<!--column-->
 
