@@ -1,6 +1,6 @@
-<?php
+ <?php
 
-    // REQUIRED
+  // REQUIRED
     // Set your default time zone (listed here: http://php.net/manual/en/timezones.php)
     date_default_timezone_set('Europe/London');
     // Include the store hours class
@@ -11,13 +11,26 @@
     // Must be in 24-hour format, separated by dash
     // If closed for the day, leave blank (ex. sunday)
     // If open multiple times in one day, enter time ranges separated by a comma
+
+    // ORIGINAL ARRAY
+    // $hours = array(
+    //     'mon' => array('11:00-20:30'),
+    //     'tue' => array('11:00-13:00', '18:00-20:30'),
+    //     'wed' => array('11:00-13:00', '18:00-20:30'),
+    //     'thu' => array('11:00-1:30'), // Open late
+    //     'fri' => array('11:00-20:30'),
+    //     'sat' => array('11:00-20:00'),
+    //     'sun' => array('11:00-20:00')
+    // );
+
+    //NEW ARRAY
     $hours = array(
-        'mon' => array('11:00-20:30'),
-        'tue' => array('11:00-13:00', '18:00-20:30'),
-        'wed' => array('11:00-13:00', '18:00-20:30'),
-        'thu' => array('11:00-1:30'), // Open late
-        'fri' => array('11:00-20:30'),
-        'sat' => array('11:00-20:00'),
+        'mon' => array(''),
+        'tue' => array('13:00-21:00'),
+        'wed' => array('13:00-21:00'),
+        'thu' => array('13:00-21:00'),
+        'fri' => array('16:00-23:00'),
+        'sat' => array('16:00-23:00'),
         'sun' => array('11:00-20:00')
     );
 
@@ -39,7 +52,7 @@
 
     // Instantiate class
     $store_hours = new StoreHours($hours, $exceptions, $config);
-    
+
     // Display open / closed message
     if($store_hours->is_open()) {
         echo "Yes, we're open! Today's hours are " . $store_hours->hours_today() . ".";
