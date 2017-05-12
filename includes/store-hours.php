@@ -25,13 +25,13 @@
 
     //NEW ARRAY
     $hours = array(
-        'mon' => array(''),
+        'mon' => array(), //closed all day
         'tue' => array('13:00-21:00'),
         'wed' => array('13:00-21:00'),
         'thu' => array('13:00-21:00'),
         'fri' => array('16:00-23:00'),
         'sat' => array('16:00-23:00'),
-        'sun' => array('11:00-20:00')
+        'sun' => array('16:00-23:00')
     );
 
     // OPTIONAL
