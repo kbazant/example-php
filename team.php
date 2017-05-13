@@ -12,6 +12,20 @@
 
         <hr>
 
+        <?php 
+            foreach ($teamMembers as $member) {
+        ?>
+
+            <div class="member">
+                <img src="images/<?php echo $member[img]; ?>.jpg" alt="<?php echo $member[name]; ?>">
+                <h2><?php echo $member[name]; ?></h2>
+                <p><?php echo $member[bio]; ?></p>
+            </div><!-- member -->
+
+        <?php 
+            }
+        ?>
+
     </div>
     <!-- team members -->
 
