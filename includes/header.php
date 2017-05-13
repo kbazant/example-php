@@ -1,13 +1,13 @@
 <?php 
-	$companyName = "Fine Dining Restaurant";
-	include('includes/arrays.php');
+    $companyName = "Fine Dining Restaurant";
+    include('includes/arrays.php');
 ?>
 
 <!DOCTYPE html>
 <html>
 
 <head>
-	<title></title>
+	<title><?php echo TITLE; ?></title>
 	<link href="/css/styles.css" rel="stylesheet">
 </head>
 
@@ -22,7 +22,7 @@
 		<!--banner-->
 
 		<div id="nav">
-				 <?php include('includes/nav.php'); ?>
+			<?php include('includes/nav.php'); ?>
 		</div>
 		<!--nav-->
 
