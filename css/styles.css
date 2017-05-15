@@ -83,10 +83,12 @@ ol li {
 
 hr {
 	border: none;
-	height: 18px;
+	height: 10px;
 	width: 114px;
-/*	background: url('') center center no-repeat;*/
+	/*background: url() center center no-repeat;*/
 	margin: 20px auto;
+	background-color: black;
+	border-radius: 5px;
 }
 
 small {
