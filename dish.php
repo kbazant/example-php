@@ -8,7 +8,7 @@
     }
 
     if (isset($_GET['item'])) {
-        $menuItem = $_GET['item'];
+        $menuItem = strip_bad_chars($_GET['item']);
         $dish = $menuIems[$menuItem];
     } 
 ?>
