@@ -10,6 +10,12 @@
         <h1>Get in touch with us</h1>
 
         <?php 
+
+            // Check for header injections
+            function has_header_injection($str) {
+                return preg_match("/[\r\n]/", $str);
+            }
+
             if(isset($_POST['contact_submit'])) {
 
               $name = trim($_POST['name']);      
