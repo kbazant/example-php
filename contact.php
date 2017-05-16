@@ -16,12 +16,16 @@
                 return preg_match("/[\r\n]/", $str);
             }
 
-            if(isset($_POST['contact_submit'])) {
+            if (isset($_POST['contact_submit'])) {
 
               $name = trim($_POST['name']);      
               $email = trim($_POST['email']);  
               $msg = $_POST['message'];    
-            
+
+              // Check to see if $name or $email have header injections
+              if (has_header_injection($name) || has_header_injection($email)) {
+                  die(); //If true, kill the script
+              }
             }
         ?>
 
